@@ -1,4 +1,4 @@
-var iControl = require('node-icontrol').iControl;
+var iControl = require('wylanswets-icontrol').iControl;
 var Service, Characteristic;
 
 module.exports = function(homebridge) {

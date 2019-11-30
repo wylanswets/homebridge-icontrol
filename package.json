@@ -1,6 +1,6 @@
 {
-  "name": "homebridge-icontrol",
-  "version": "0.1.1",
+  "name": "homebridge-icontrol-wylanswets",
+  "version": "0.1.2",
   "description": "iControl (Xfinity Home) for Homebridge: https://github.com/nfarina/homebridge",
   "license": "ISC",
   "keywords": [
@@ -8,10 +8,10 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git://github.com/nfarina/homebridge-icontrol.git"
+    "url": "git://github.com/wylanswets/homebridge-icontrol.git"
   },
   "bugs": {
-    "url": "http://github.com/nfarina/homebridge-icontrol/issues"
+    "url": "http://github.com/wylanswets/homebridge-icontrol/issues"
   },
   "engines": {
     "node": ">=0.12.0",
@@ -19,5 +19,11 @@
   },
   "dependencies": {
     "wylanswets-icontrol": "^0.2.2"
-  }
+  },
+  "homepage": "https://github.com/wylanswets/homebridge-icontrol#readme",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Wylan Swets"
 }
